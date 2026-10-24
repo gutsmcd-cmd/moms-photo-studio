@@ -1,0 +1,25 @@
+{
+  "name": "moms-photo-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mom's Photo Studio: an easy photo editor with big buttons. Free, no ads, no sign-in.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "icons": "node scripts/icons.mjs",
+    "build": "node scripts/icons.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vite-plugin-pwa": "0.21.2"
+  },
+  "dependencies": {
+    "@gradio/client": "2.7.1",
+    "@huggingface/transformers": "4.3.1",
+    "onnxruntime-web": "1.30.0"
+  }
+}
