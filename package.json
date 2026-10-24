@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@gradio/client": "2.7.1",
-    "@huggingface/transformers": "4.3.1",
     "onnxruntime-web": "1.30.0"
   }
 }
